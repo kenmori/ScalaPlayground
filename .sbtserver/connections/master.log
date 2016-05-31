@@ -1,37 +1,73 @@
-New log file opened at Sun May 29 14:37:33 JST 2016 by 48210@kenjimorita-MacBook-Pro.local
-Taking next connection to: 49690
-New client attempting to connect on port: 49691-49690
-  Address = /192.168.179.5:49690
-This client on port 49691 has uuid 450405d6-74d9-4e25-b69f-e9487c27bac5 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-450405d6-74d9-4e25-b69f-e9487c27bac5
-Taking next connection to: 49690
-New client attempting to connect on port: 49692-49690
-  Address = /192.168.179.5:49690
-Handshake exception on socket: 49692
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 49690
-New client attempting to connect on port: 49693-49690
-  Address = /192.168.179.5:49690
-This client on port 49693 has uuid c657b57b-af01-4be6-a7e2-7eb61754e31c configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-450405d6-74d9-4e25-b69f-e9487c27bac5, activator-c657b57b-af01-4be6-a7e2-7eb61754e31c
-Taking next connection to: 49690
+New log file opened at Tue May 31 21:22:15 JST 2016 by 85538@kenjimorita-MacBook-Pro.local
+Taking next connection to: 61684
+New client attempting to connect on port: 61685-61684
+  Address = /192.168.179.5:61684
+This client on port 61685 has uuid 7ed554ff-3151-4183-bf20-6d7b400de3eb configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7ed554ff-3151-4183-bf20-6d7b400de3eb
+Taking next connection to: 61684
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 49690
-Server socket closed java.net.SocketException: Socket closed
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 48210@kenjimorita-MacBook-Pro.local logs at Sun May 29 14:41:03 JST 2016, goodbye.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61684
