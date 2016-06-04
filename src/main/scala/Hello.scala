@@ -27,5 +27,9 @@ object Hello {
         name
     }
     (1 to 5)
+    
+    var name : String = ""//初期化
+    def bark2() : Unit = println("bowwow")
+    
   }
 }
