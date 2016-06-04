@@ -6,7 +6,7 @@ object Hello {
     
     var x = 0
     if (x == 0) println("Zero") else println("Other")
-    
+
     //2行
     if(x == 0)
      println("Zero") else println("Other")
