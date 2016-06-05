@@ -1,5 +1,5 @@
-New log file opened at Thu Jun 02 20:48:29 JST 2016 by 2021@kenjimorita-MacBook-Pro.local
-jvm 2021@kenjimorita-MacBook-Pro.local
+New log file opened at Sun Jun 05 09:35:32 JST 2016 by 87184@kenjimorita-MacBook-Pro.local
+jvm 87184@kenjimorita-MacBook-Pro.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.51-b03
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/No51/hello-scala/project, returning: (hello-scala-build)
 Loading project definition from /Users/No51/hello-scala/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@70191ba7, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2567ca50, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -66,29 +66,51 @@ Set current project to hello-scala (in build file:/Users/No51/hello-scala/)
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@3a4febfa, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@52a775a9, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
 
-Total time: 1 s, completed 2016/06/02 20:48:41
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 65049a43, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/Users/No51/hello-scala/target/scala-2.11/classes
+Scala compilation took 6.765973374 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 9 s, completed 2016/06/05 9:35:51
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/Users/No51/hello-scala/}hello-scala/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@79a156af, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@29b26155, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -105,12 +127,12 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 2016/06/02 20:48:42
+Total time: 1 s, completed 2016/06/05 9:35:52
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/Users/No51/hello-scala/}hello-scala/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@713188a9, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@52c30611, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -127,18 +149,12 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 2016/06/02 20:48:43
+Total time: 1 s, completed 2016/06/05 9:35:53
 > server-post-command-cleanup
 > server-handle-next-server-request
-Received execution starting without a waiting first ExecutionStarting(4)
-Received execution starting without a waiting first ExecutionStarting(4)
-Use 'last' for the full log.
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@190b1594, check cycles: false
+> {file:/Users/No51/hello-scala/}hello-scala/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@77fce901, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -155,338 +171,6 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed 2016/06/02 20:48:53
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRunMain Hello
-Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@b531a2e, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	
-Total time: 0 s, completed 2016/06/02 20:48:54
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1099b86a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 2c83c594, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-	-classpath
-	/Users/No51/hello-scala/target/scala-2.11/classes
-Scala compilation took 6.019275452 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 6 s, completed 2016/06/02 20:57:15
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRunMain Hello
-Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@71af34ef, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	
-Total time: 0 s, completed 2016/06/02 20:57:15
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@70833dd3, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 35c1a199, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-	-classpath
-	/Users/No51/hello-scala/target/scala-2.11/classes
-Read from stdout: /Users/No51/hello-scala/src/main/scala/Hello.scala:5: ambiguous reference to overloaded definition,
-Read from stdout: both method bark of type ()Unit
-Read from stdout: and  method bark of type ()Unit
-Read from stdout: match expected type ?
-/Users/No51/hello-scala/src/main/scala/Hello.scala:5: ambiguous reference to overloaded definition,
-both method bark of type ()Unit
-and  method bark of type ()Unit
-match expected type ?
-Read from stdout: bark
-    bark
-Read from stdout: ^
-    ^
-Read from stdout: /Users/No51/hello-scala/src/main/scala/Hello.scala:32: method bark is defined twice
-Read from stdout: conflicting symbols both originated in file '/Users/No51/hello-scala/src/main/scala/Hello.scala'
-/Users/No51/hello-scala/src/main/scala/Hello.scala:32: method bark is defined twice
-  conflicting symbols both originated in file '/Users/No51/hello-scala/src/main/scala/Hello.scala'
-Read from stdout: def bark() : Unit = println("bowwow")
-    def bark() : Unit = println("bowwow")
-Read from stdout: ^
-        ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 1 s, completed 2016/06/02 20:57:36
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@27b13c0f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 3bf98f4f, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-	-classpath
-	/Users/No51/hello-scala/target/scala-2.11/classes
-Read from stdout: /Users/No51/hello-scala/src/main/scala/Hello.scala:5: ambiguous reference to overloaded definition,
-Read from stdout: both method bark of type ()Unit
-Read from stdout: and  method bark of type ()Unit
-Read from stdout: match expected type ?
-/Users/No51/hello-scala/src/main/scala/Hello.scala:5: ambiguous reference to overloaded definition,
-both method bark of type ()Unit
-and  method bark of type ()Unit
-match expected type ?
-Read from stdout: bark
-    bark
-Read from stdout: ^
-    ^
-Read from stdout: /Users/No51/hello-scala/src/main/scala/Hello.scala:32: method bark is defined twice
-Read from stdout: conflicting symbols both originated in file '/Users/No51/hello-scala/src/main/scala/Hello.scala'
-/Users/No51/hello-scala/src/main/scala/Hello.scala:32: method bark is defined twice
-  conflicting symbols both originated in file '/Users/No51/hello-scala/src/main/scala/Hello.scala'
-Read from stdout: def bark() : Unit = println("bowwow")
-    def bark() : Unit = println("bowwow")
-Read from stdout: ^
-        ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 1 s, completed 2016/06/02 20:57:39
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@61010023, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 4de38bad, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-	-classpath
-	/Users/No51/hello-scala/target/scala-2.11/classes
-Scala compilation took 1.015443064 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 2016/06/02 20:57:46
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRunMain Hello
-Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@59c02ceb, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	
-Total time: 0 s, completed 2016/06/02 20:57:46
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@3d75e50b, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 2016/06/02 21:02:51
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRunMain Hello
-Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@71967842, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	
-Total time: 0 s, completed 2016/06/02 21:02:51
+Total time: 1 s, completed 2016/06/05 9:35:54
 > server-post-command-cleanup
 > server-handle-next-server-request

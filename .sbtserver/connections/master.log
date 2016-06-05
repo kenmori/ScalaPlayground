@@ -1,13 +1,13 @@
-New log file opened at Thu Jun 02 20:48:30 JST 2016 by 2021@kenjimorita-MacBook-Pro.local
-Taking next connection to: 50905
-New client attempting to connect on port: 50906-50905
-  Address = /192.168.179.5:50905
-This client on port 50906 has uuid 321b9b3f-fbbb-4ce7-8d03-7779580e4ab0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-321b9b3f-fbbb-4ce7-8d03-7779580e4ab0
-Taking next connection to: 50905
-New client attempting to connect on port: 50907-50905
-  Address = /192.168.179.5:50905
-Handshake exception on socket: 50907
+New log file opened at Sun Jun 05 09:35:32 JST 2016 by 87184@kenjimorita-MacBook-Pro.local
+Taking next connection to: 49189
+New client attempting to connect on port: 49190-49189
+  Address = /192.168.179.5:49189
+This client on port 49190 has uuid dbd5c0cb-ecc9-4728-a3c3-cf92c4bfb012 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-dbd5c0cb-ecc9-4728-a3c3-cf92c4bfb012
+Taking next connection to: 49189
+New client attempting to connect on port: 49191-49189
+  Address = /192.168.179.5:49189
+Handshake exception on socket: 49191
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,21 +17,18 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 50905
-New client attempting to connect on port: 50908-50905
-  Address = /192.168.179.5:50905
-This client on port 50908 has uuid b451f0c9-cabb-4ef4-9089-bf962eacbdc5 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-321b9b3f-fbbb-4ce7-8d03-7779580e4ab0, activator-b451f0c9-cabb-4ef4-9089-bf962eacbdc5
-Taking next connection to: 50905
+Taking next connection to: 49189
+New client attempting to connect on port: 49192-49189
+  Address = /192.168.179.5:49189
+This client on port 49192 has uuid 62629d30-b087-48da-8d57-cd57ffe5e1ef configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-dbd5c0cb-ecc9-4728-a3c3-cf92c4bfb012, activator-62629d30-b087-48da-8d57-cd57ffe5e1ef
+Taking next connection to: 49189
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50905
+Taking next connection to: 49189
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50905
+Taking next connection to: 49189
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50905
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50905
+Taking next connection to: 49189
