@@ -286,3 +286,139 @@ All initially invalidated sources: Set()
 Total time: 0 s, completed 2016/06/05 12:58:41
 > server-post-command-cleanup
 > server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@246bd19a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler a542738, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/Users/No51/hello-scala/target/scala-2.11/classes
+Scala compilation took 0.922679743 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016/06/05 13:28:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Hello
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7106145, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016/06/05 13:28:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7ef92b5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/No51/hello-scala/src/main/scala/Hello.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
+Compiling 1 Scala source to /Users/No51/hello-scala/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 5f8b1eef, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/No51/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/Users/No51/hello-scala/target/scala-2.11/classes
+Scala compilation took 0.970355487 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016/06/05 13:32:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Hello
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@4e0f7cb3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016/06/05 13:32:13
+> server-post-command-cleanup
+> server-handle-next-server-request
