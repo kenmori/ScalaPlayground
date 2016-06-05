@@ -7,5 +7,5 @@ trait Ticket {
  //field
  val id: Long
  val title: String
-
+ val status: TicketStatus
 }
