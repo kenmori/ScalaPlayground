@@ -13,7 +13,7 @@ sealed trait TicketStatus {
 //staticみたいなものはなくしてシステムにたいして一つだけですよというのを保証する
 //シングルトンオブジェクトを作る
 //値を作っている(インスタンスを作ることができる)
-object TicketStatus {
+case object TicketStatus {
   object Open extends TicketStatus //classにtratをmixinする
   object Fixed extends TicketStatus
 
