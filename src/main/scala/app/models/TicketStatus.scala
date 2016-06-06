@@ -4,19 +4,17 @@ package app.models
   * Created by No51 on 2016/06/05.
   */
 //型
-sealed trait TicketStatus {
-
-}
+sealed trait TicketStatus {}
 
 //scalaではclassに対してメソッドを作るとかはない。
 //classと同じオブジェクトを作ってそこにメソッドをつくる
 //staticみたいなものはなくしてシステムにたいして一つだけですよというのを保証する
 //シングルトンオブジェクトを作る
 //値を作っている(インスタンスを作ることができる)
-case object TicketStatus {
-  object Open extends TicketStatus //classにtratをmixinする
-  object Fixed extends TicketStatus
-
+//classにtratをmixinする
+object TicketStatus {
+  case object Open extends TicketStatus
+  case object Fixed extends TicketStatus
 }
 
 //Enumがぶつかるので一個オブジェクトを作ってnameSpaceを分ける
