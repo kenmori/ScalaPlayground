@@ -1,5 +1,7 @@
 package app.models
 
+import sun.security.krb5.internal.Ticket
+
 /**
   * Created by No51 on 2016/06/05.
   */
@@ -17,11 +19,18 @@ package app.models
 //private 自分自身
 
 //分かりやすくなった
+
+
 object TicketRepo {
- private dap: Map[TicketId , Ticket] = Map() //mutableになる可能性があるからvar //keyはLong, valはTicket
+ private var map: Map[TicketId, Ticket] = Map() //mutableになる可能性があるからvar //keyはLong, valはTicket
  def findAll : Seq[Ticket] = ??? //全てのTicketIdを取り出す シーケンスは何者？？
- def ()//parameter群
- 
+ def findById(id: TicketId) : Option [Ticket] = ???
+ def createIssue(title: String) : Issue = ???
+ def createBug(title: String, description: String) : Bug = ???
+ def findIssuesByStatus(status: TicketStatus): Seq[Issue] = ???
+ def findBugsByStatus(status: TicketStatus) : Seq[Bug] = ???
+ def fix(id: TicketId): Boolean = ???
+ println("fafafa")
 }
 
 //type はclassのオブジェクトやメンバにしかおけない
@@ -38,3 +47,5 @@ object TicketRepo {
 //Map keyとvalue //順序がない //MapもIterableを継承している(javaとの違い)
 //Set 重複を許さない
 
+
+//引数ないときは()は書いたらエラー
